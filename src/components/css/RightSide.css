@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+
+/* RightSide.css */
+.righttext {
+  width: 143.81px;
+  height: 48.3px;
+  top: 190.32px;
+  left: 813.18px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute; /* Position the text absolutely */
+}
+
+.smalltext {
+  width: 176.74px;
+  height: 20.86px;
+  top: 240.11px;
+  left: 813.18px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute; /* Position the text absolutely */
+}
+
+/* RightSide.css */
+.image1 {
+  width: 197.6px;
+  height: 32.93px;
+  top: 280.51px;
+  left: 795.18px;
+  position: absolute; /* Position the image absolutely */
+}
+
+.image2 {
+  width: 197.6px;
+  height: 32.93px;
+  top: 280.51px;
+  left: 990.22px;
+  position: absolute; /* Position the image absolutely */
+}
+/* RightSide.css */
+.form-card {
+  width: 315.64px;
+  height: auto;
+  position: absolute;
+  top: 310.88px;
+  left: 809.18px;
+  border: 1px solid #999999;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  font-family: Lato;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 13px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.forgot-pass {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #346bd4;
+  margin-top: 13px;
+}
+
+.input {
+  background-color: #f8faff;
+  border: none;
+}
+
+/* RightSide.css */
+.first-text {
+  margin-top: 15px;
+  width: 286.51px;
+  height: 20.86px;
+  top: 768.83px;
+  left: 870.24px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+
+  text-align: center;
+  color: #858585; /* Adjust the color as needed */
+}
+
+.second {
+  color: #346bd4;
+}

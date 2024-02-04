@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.page-container {
+  display: flex;
+  height: 100vh; /* Set the height of the page to 100% of the viewport height */
+}
+
+.colored-section {
+  background-color: blue; /* Set your desired background color */
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    73% 100%,
+    0% 100%
+  ); /* Uneven shape, adjust as needed */
+}
+
+.full-width-section {
+  flex: 1; /* Take up the other half of the page */
+  background-color: white; /* Set your desired background color */
+}
+
+.page-container {
+  display: flex;
+  height: 100vh;
+}
+
+.colored-section {
+  flex: 1;
+  width: 50%; /* Set to 50% of the viewport width */
+  height: 100vh; /* Set to 100% of the viewport height */
+  background-color: #605bff;
+  clip-path: polygon(0 0, 100% 0, 73% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  width: 205px;
+  height: 88px;
+  top: 462.37px;
+  left: 196.33px;
+  font-family: Montserrat;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0em;
+  color: white;
+  text-align: left;
+}
+
+.circle {
+  width: 80.15px;
+  height: 80.15px;
+  background-color: white;
+  border-radius: 50%; /* Make it circular */
+  position: absolute;
+  top: 54.32px;
+  left: 61.03px;
+  overflow: hidden; /* Ensure SVG path stays inside the circle */
+}
+
+.bottom-image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.colored-section {
+  position: relative;
+}
+
+.icon-container {
+  position: absolute;
+  width: 299px; /* Fixed width */
+  height: auto; /* Allow the height to adjust based on content */
+  top: 650px;
+  left: 144.5px;
+  display: flex;
+  justify-content: space-between; /* Spacing between icons */
+}
+
+.icon-image {
+  width: 44px; /* Adjust the width as needed */
+  height: 44px; /* Adjust the height as needed */
+}
+
+.combined-container {
+  display: flex;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.right-side {
+  flex: 1;
+}

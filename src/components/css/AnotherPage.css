@@ -1,0 +1,154 @@
+.sidebar {
+  width: 218px;
+  height: 1047px;
+  background-color: white;
+  color: gray;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  width: 111px;
+  height: 42px;
+  position: absolute;
+  top: 50px;
+  left: 56px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 110px;
+  margin-left: 20px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 218px;
+}
+
+.list-items {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.dashboardlogo {
+  margin-right: 12px;
+}
+
+.dashboard {
+  padding-bottom: 3px;
+}
+
+.card {
+  width: 596px;
+  height: 367px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.file-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px dotted rgb(172, 163, 163);
+  width: 100%;
+  height: 280px;
+  cursor: pointer;
+}
+
+.file-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.browse-text {
+  font-size: 10px;
+  font-weight: 500;
+  color: #000000;
+}
+
+/* Hide the file input */
+.file-upload-label input[type="file"] {
+  display: none;
+}
+
+.browse {
+  color: blue;
+}
+
+.upload-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.remove-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: red;
+}
+
+.table-container {
+  width: 80%;
+  margin-top: 47%;
+  margin-left: 10%;
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.data-table th {
+  background-color: #f2f2f2;
+}
